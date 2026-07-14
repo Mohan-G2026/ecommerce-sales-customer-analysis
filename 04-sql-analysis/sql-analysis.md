@@ -22,7 +22,7 @@ select count(\*) from ecommerce;
 
 
 
-count
+**count**
 
 248089
 
@@ -68,9 +68,9 @@ having count(\*) > 1;
 
 
 
-invoice	stockcode	description	quantity	invoicedate	invoicetime	price	customerid	country	revenue	category	count
+**invoice	  stockcode   description   quantity   invoicedate   invoicetime   price   customerid   country   revenue   category   count**
 
-NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	NULL	34166
+&#x20;NULL	    NULL	 NULL	      NULL	  NULL	         NULL	    NULL      NULL	  NULL      NULL      NULL     34166
 
 
 
@@ -114,7 +114,7 @@ WHERE Category = 'Sales';
 
 
 
-total\_revenue
+**total\_revenue**
 
 4001425.59
 
@@ -166,7 +166,7 @@ ORDER BY 1;
 
 
 
-month	monthly\_revenue
+**month	      monthly\_revenue**
 
 01-12-2009	798329.56
 
@@ -228,23 +228,23 @@ ORDER BY Revenue DESC;
 
 
 
-country	revenue
+**country	         revenue**
 
 United Kingdom	3431300.05
 
-EIRE	163127.79
+EIRE	        163127.79
 
 Netherlands	114223.5
 
-Germany	73115.06
+Germany	        73115.06
 
-France	49714.62
+France	        49714.62
 
-Denmark	37389.34
+Denmark	        37389.34
 
-Sweden	30789.41
+Sweden	        30789.41
 
-Spain	14859.4
+Spain	        14859.4
 
 Switzerland	13263.62
 
@@ -300,25 +300,25 @@ LIMIT 10;
 
 
 
-product	revenue
+**product	                                revenue**
 
 WHITE HANGING HEART T-LIGHT HOLDER	76210.86
 
-REGENCY CAKESTAND 3 TIER	31020.08
+REGENCY CAKESTAND 3 TIER	        31020.08
 
-ASSORTED COLOUR BIRD ORNAMENT	26466.23
+ASSORTED COLOUR BIRD ORNAMENT	        26466.23
 
-PARTY BUNTING	25350.01
+PARTY BUNTING	                        25350.01
 
-JUMBO BAG RED WHITE SPOTTY 	25024.12
+JUMBO BAG RED WHITE SPOTTY 	        25024.12
 
-DOOR MAT UNION FLAG	20747.04
+DOOR MAT UNION FLAG	                20747.04
 
-TEA TIME CAKE STAND IN GIFT BOX	18622.36
+TEA TIME CAKE STAND IN GIFT BOX	        18622.36
 
-EDWARDIAN PARASOL NATURAL	18559.29
+EDWARDIAN PARASOL NATURAL	        18559.29
 
-EDWARDIAN PARASOL BLACK	17602.17
+EDWARDIAN PARASOL BLACK	                17602.17
 
 ENGLISH ROSE DESIGN QUILTED THROW	17227.96
 
@@ -428,31 +428,31 @@ ORDER BY Revenue DESC;
 
 
 
-Sample Output:
+**Sample Output:**
 
 
 
-description	revenue	running\_revenue	cumulative\_percentage
+&#x20;     **description	                revenue	     running\_revenue	cumulative\_percentage**
 
-WHITE HANGING HEART T-LIGHT HOLDER	76210.86	76210.86	1.9
+WHITE HANGING HEART T-LIGHT HOLDER	76210.86	76210.86	         1.9
 
-REGENCY CAKESTAND 3 TIER	31020.08	107230.94	2.68
+REGENCY CAKESTAND 3 TIER	        31020.08	107230.94	         2.68
 
-ASSORTED COLOUR BIRD ORNAMENT	26466.23	133697.17	3.34
+ASSORTED COLOUR BIRD ORNAMENT	        26466.23	133697.17	         3.34
 
-PARTY BUNTING	25350.01	159047.18	3.97
+PARTY BUNTING	                        25350.01	159047.18	         3.97
 
-JUMBO BAG RED WHITE SPOTTY 	25024.12	184071.3	4.6
+JUMBO BAG RED WHITE SPOTTY 	        25024.12	184071.3	         4.6
 
-DOOR MAT UNION FLAG	20747.04	204818.34	5.12
+DOOR MAT UNION FLAG	                20747.04	204818.34	         5.12
 
-TEA TIME CAKE STAND IN GIFT BOX	18622.36	223440.7	5.58
+TEA TIME CAKE STAND IN GIFT BOX	        18622.36	223440.7	         5.58
 
-EDWARDIAN PARASOL NATURAL	18559.29	241999.99	6.05
+EDWARDIAN PARASOL NATURAL	        18559.29	241999.99	         6.05
 
-EDWARDIAN PARASOL BLACK	17602.17	259602.16	6.49
+EDWARDIAN PARASOL BLACK	                17602.17	259602.16	         6.49
 
-ENGLISH ROSE DESIGN QUILTED THROW	17227.96	276830.12	6.92
+ENGLISH ROSE DESIGN QUILTED THROW	17227.96	276830.12	         6.92
 
 
 
@@ -514,9 +514,9 @@ WHERE Category='Sales';
 
 
 
-total\_customers	avg\_revenue\_per\_customer
+**total\_customers	avg\_revenue\_per\_customer**
 
-2685	1490.29
+&#x20;     2685	        1490.29
 
 
 
@@ -720,27 +720,27 @@ FROM scored;
 
 
 
-customerid	recency	frequency	monetary	r\_score	f\_score	m\_score	segment
+**customerid     recency	frequency	monetary	r\_score	f\_score	m\_score	segment**
 
-16887	180	1	219.82	1	2	2	Others
+&#x20; 16887	         180	    1	         219.82	           1	   2	   2	Others
 
-14865	180	1	31.2	1	1	1	Others
+&#x20; 14865	         180	    1	          31.2	           1	   1	   1	Others
 
-16763	180	1	352.85	1	2	2	Others
+&#x20; 16763	         180	    1	         352.85	           1	   2	   2	Others
 
-17804	180	1	124.95	1	1	1	Others
+&#x20; 17804	         180	    1	         124.95	           1	   1	   1	Others
 
-17984	180	1	212.63	1	2	2	Others
+&#x20; 17984	         180	    1	         212.63	           1	   2	   2	Others
 
-13748	180	1	173.1	1	1	1	Others
+&#x20; 13748	         180	    1	          173.1	           1	   1	   1	Others
 
-17592	180	1	148.3	1	1	1	Others
+&#x20; 17592	         180	    1	         148.3	           1	   1	   1	Others
 
-14654	180	1	246.86	1	2	2	Others
+&#x20; 14654	         180	    1	         246.86	           1	   2	   2	Others
 
-15362	180	1	310.75	1	2	2	Others
+&#x20; 15362	         180	    1	         310.75	           1	   2	   2	Others
 
-17056	180	1	128.6	1	1	1	Others
+&#x20; 17056	         180	    1	         128.6	           1	   1	   1	Others
 
 
 
